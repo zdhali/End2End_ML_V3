@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  notebook:
+    build: .
+    image: ml_dev
+    volumes:
+      - C:/Users/Zafrin/e2e_ml_project_v2/.:/home/
+    ports:
+      - 8888:8888
+    container_name: ml_development
