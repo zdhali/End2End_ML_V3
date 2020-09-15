@@ -32,35 +32,35 @@ $ git clone
 Change working directory to the cloned project folder directory. 
 A list of file contents would look like so:
 
-'.env',
-'.gitignore',
+'.env',\
+'.gitignore'\
 'data',
-'docker-compose.yml',
-'Dockerfile',
-'docs',
-'LICENSE',
-'Makefile',
-'models',
-'new_user_credentials.csv',
-'notebooks',
-'README.md',
-'references',
-'reports',
-'requirements.txt',
-'setup.py',
-'src',
-'startup.sh',
-'test_environment.py',
-'tox.ini'
+'docker-compose.yml',\
+'Dockerfile',\
+'docs',\
+'LICENSE',\
+'Makefile',\
+'models',\
+'new_user_credentials.csv',\
+'notebooks',\
+'README.md',\
+'references',\
+'reports',\
+'requirements.txt',\
+'setup.py',\
+'src',\
+'startup.sh',\
+'test_environment.py',\
+'tox.ini'\
  
 AWS
-You will need an AWS account to be able complete this tutorial: 
-	1. Go to AWS IAm : https://aws.amazon.com/iam/
-	2. Sign into the Console and create a new user with full Sagemaker and S3 access. 
-	3. Save the User credential CSV in the project directory with the dockerfile and docker-compose.yml. 
+You will need an AWS account to be able complete this tutorial: \
+	1. Go to AWS IAm : https://aws.amazon.com/iam/\
+	2. Sign into the Console and create a new user with full Sagemaker and S3 access. \
+	3. Save the User credential CSV in the project directory with the dockerfile and docker-compose.yml. \
 
-		1. (If not named new_user_credentials.csv , modify the filename in the startup.sh file to your CSV name)
-	4. Create a role with "AmazonSagemakerFullAccess" policy
+		1. (If not named new_user_credentials.csv , modify the filename in the startup.sh file to your CSV name)\
+	4. Create a role with "AmazonSagemakerFullAccess" policy\
 
 		1. Keep the name of this role handy to use in Jupyter Notebook : The notebook will prompt you for this name 
 
@@ -107,7 +107,7 @@ $docker-compose up
 
 
 
-In Jupyter Notebooks navigate to the notebooks folder for a two sample notebooks. 
+In Jupyter Notebooks navigate to the notebooks folder for a two sample notebooks. \
 	1. The online version is to be used if trying to create an online Sagemaker notebook instance. This requires no local installation and all steps to instantiate are outlined in the AWS- SageMaker-Online Notebook documentation. 
 	2. The local version is to be used if trying to create a local notebook but run training/deployment on AWS EC through Sagemaker
 
