@@ -8,19 +8,19 @@ E2E_ML_project_v3
 # Installation Requirements:
 The following packages are required on the machine to get started:
 
-*Git - Version Management - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-	*Github Desktop could also be used
+* Git - Version Management - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+	* Github Desktop could also be used
 
 
-*Anaconda - Package Manager - https://docs.anaconda.com/anaconda/install
-	*Please note: The steps outlined below do not use Anaconda explicitly: This is to manage your local packages if just using cookie cutter on your local host environment.
+* Anaconda - Package Manager - https://docs.anaconda.com/anaconda/install
+	* Please note: The steps outlined below do not use Anaconda explicitly: This is to manage your local packages if just using cookie cutter on your local host environment.
 
 
-*Cookie Cutter - https://cookiecutter.readthedocs.io/en/1.7.2/installation.html
-	*Cookiecutter has Sphinx documentation needs built into the format. However, the code in the Jupyter Notebooks in this demo is not written in Object Oriented form, the Sphinx documentation capabilities have not been leveraged.
+* Cookie Cutter - https://cookiecutter.readthedocs.io/en/1.7.2/installation.html
+	* Cookiecutter has Sphinx documentation needs built into the format. However, the code in the Jupyter Notebooks in this demo is not written in Object Oriented form, the Sphinx documentation capabilities have not been leveraged.
 
 
-*Docker - Containerized Environment Ecosystem- https://www.docker.com/products/docker-desktop
+* Docker - Containerized Environment Ecosystem- https://www.docker.com/products/docker-desktop
 
 # Getting Started:
 
@@ -80,7 +80,7 @@ We will now build the docker image needed:
 
 **Check Documentation-ZD/Documentation Machine Learning.html for changes that may be needed to the files**
 
-	-To build the docker image:
+	- To build the docker image:
 
 
 ```
