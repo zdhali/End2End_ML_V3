@@ -3,7 +3,7 @@ E2E_ML_project_v3
 
 *The goal of this project is to use a cookiecutter format to develop a machine learning development and deployment environment. This project will be dockerized and pushed to github for easy reproduction of the model.*
 
-*This document outlines the setup of a ML development environment that is customizable for the problem/solution needs and create a skeleton for deployment on AWS using Sagemaker. The container built here will have tensorflow, AWS CLI, and Sagemaker as its main packages, open Jupyter notebook for model development.*
+*This document outlines the setup of a ML development environment that is customizable for the problem/solution needs and create a skeleton for deployment on AWS using Sagemaker. The container built here will have tensorflow, AWS CLI, and Sagemaker and open Jupyter notebook for model development.*
 
 # Installation Requirements:
 The following packages are required on the machine to get started:
