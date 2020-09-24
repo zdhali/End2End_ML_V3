@@ -80,30 +80,30 @@ We will now build the docker image needed:
 
 **Check Documentation-ZD/Documentation Machine Learning.html for changes that may be needed to the files**
 
-	- To build the docker image:
+To build the docker image:
 
 
 ```
 $docker-compose build
 ```
 
-	- Note: The building image may take time. Tensorflow installation with dependencies is a large installation.
+Note: The building image may take time. Tensorflow installation with dependencies is a large installation.
 
-	- Once docker image has been built you may check the image with:
+Once docker image has been built you may check the image with:
 ```
 $docker images
 ```
-	- To run the container:
+To run the container:
 ```
 $docker-compose up
 ```
 
-	- The *ml_development* image will be instantiated, the startup.sh will print your AWS CLI version,  log you into AWS CLI, list your partial credentials and open Jupyter notebook.
+The *ml_development* image will be instantiated, the startup.sh will print your AWS CLI version,  log you into AWS CLI, list your partial credentials and open Jupyter notebook.
 
 
 
-	- Navigate to localhost:8888 or use one of the links in CMD output in a browser to open Jupyter notebook.
-	   - Copy paste the token from the CMD output if prompted.
+Navigate to localhost:8888 or use one of the links in CMD output in a browser to open Jupyter notebook.
+* Copy paste the token from the CMD output if prompted.
 
 
 
@@ -113,7 +113,7 @@ In Jupyter Notebooks navigate to the notebooks folder for a two sample notebooks
 
 	2. The local version is to be used if trying to create a local notebook but run training/deployment on AWS EC through Sagemaker
 
-	   1. This notebook outlines
+	   - This notebook outlines
 
 			- Creating a model, training and deployment through Python SDK
 			- Creating a model, training and deployment through Boto3
