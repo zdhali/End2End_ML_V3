@@ -6,8 +6,8 @@ WORKDIR /backend/src
 
 # copy the dependencies file to the working directory
 COPY backend/requirements.txt .
-COPY models/mnist_keras_model.json models/
-COPY models/mnist_keras_model.h5 models/
+COPY models/mnist_keras_model.json ../../models/
+COPY models/mnist_keras_model.h5 ../../models/
 
 # install dependencies
 RUN pip install -r requirements.txt

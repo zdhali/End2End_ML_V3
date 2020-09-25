@@ -11,16 +11,22 @@ services:
     container_name: ml_development
 
   backend:
-    restart: always
+    #restart: always
     container_name: backend
     build:
       context: ./
       dockerfile: backend/Dockerfile
-    expose:
-      - 5000
+    ports:
+      - 5000:5000
     environment:
       - FLASK_ENV=development
       - FLASK_APP=app.py
       - FLASK_DEBUG=1
-    volumes:
-      - /models/:/models/
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
